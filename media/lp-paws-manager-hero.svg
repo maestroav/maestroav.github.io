@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4" />
+      <stop offset="100%" stop-color="#dcfce7" />
+    </linearGradient>
+    <linearGradient id="primary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bg)" />
+  <!-- Window frame -->
+  <rect x="40" y="40" width="520" height="320" rx="8" fill="#ffffff" stroke="#bbf7d0" stroke-width="2" />
+  <rect x="40" y="40" width="520" height="40" rx="8" fill="#f8fafc" />
+  <circle cx="64" cy="60" r="6" fill="#ef4444" />
+  <circle cx="84" cy="60" r="6" fill="#f59e0b" />
+  <circle cx="104" cy="60" r="6" fill="#22c55e" />
+  <text x="300" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="500">PawsManager Dashboard - Active Boarding &amp; Appointments</text>
+  
+  <!-- Sidebar -->
+  <rect x="60" y="100" width="100" height="235" rx="6" fill="#f0fdf4" />
+  <rect x="72" y="116" width="76" height="12" rx="3" fill="#16a34a" opacity="0.2" />
+  <rect x="72" y="140" width="60" height="10" rx="3" fill="#cbd5e1" />
+  <rect x="72" y="164" width="68" height="10" rx="3" fill="#cbd5e1" />
+  <rect x="72" y="188" width="50" height="10" rx="3" fill="#cbd5e1" />
+
+  <!-- Content cards -->
+  <rect x="176" y="100" width="364" height="65" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+  <circle cx="204" cy="132" r="16" fill="#dcfce7" />
+  <path d="M198 132 l4 4 l8 -8" stroke="#16a34a" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="232" y="126" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1e293b">Max (Golden Retriever) - Check-in</text>
+  <text x="232" y="144" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Boarding Suite #4 • Grooming at 2:00 PM</text>
+  <rect x="470" y="120" width="58" height="24" rx="12" fill="#dcfce7" />
+  <text x="499" y="136" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#16a34a" text-anchor="middle">Checked In</text>
+
+  <rect x="176" y="178" width="364" height="65" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+  <circle cx="204" cy="210" r="16" fill="#fef3c7" />
+  <text x="232" y="204" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1e293b">Luna (Siamese Cat) - Vaccination</text>
+  <text x="232" y="222" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Annual booster shot due today • Dr. Sarah</text>
+  <rect x="470" y="198" width="58" height="24" rx="12" fill="#fef3c7" />
+  <text x="499" y="214" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#d97706" text-anchor="middle">Pending</text>
+
+  <rect x="176" y="256" width="364" height="65" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" />
+  <circle cx="204" cy="288" r="16" fill="#e0f2fe" />
+  <text x="232" y="282" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1e293b">Cooper (Beagle) - Grooming</text>
+  <text x="232" y="300" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Full bath &amp; nail trim • Ready for pickup</text>
+  <rect x="470" y="276" width="58" height="24" rx="12" fill="#e0f2fe" />
+  <text x="499" y="292" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#0284c7" text-anchor="middle">Ready</text>
+</svg>
