@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" font-family="Geist, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset="1" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b6cff"/>
+      <stop offset="1" stop-color="#5b3df5"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#18181b" flood-opacity=".10"/>
+    </filter>
+  </defs>
+  <rect width="960" height="440" fill="url(#bg)"/>
+  <circle cx="480" cy="220" r="190" fill="url(#glow)"/>
+  <circle cx="480" cy="220" r="150" fill="none" stroke="#c4b5fd" stroke-dasharray="3 7"/>
+  <circle cx="480" cy="220" r="96" fill="none" stroke="#ddd6fe"/>
+
+  <!-- connectors -->
+  <g stroke="#a78bfa" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <path d="M430 196 C 360 150, 300 110, 262 104"/>
+    <path d="M430 220 C 360 220, 300 220, 262 220"/>
+    <path d="M430 244 C 360 290, 300 330, 262 336"/>
+    <path d="M530 196 C 600 150, 660 110, 698 104"/>
+    <path d="M530 220 C 600 220, 660 220, 698 220"/>
+    <path d="M530 244 C 600 290, 660 330, 698 336"/>
+  </g>
+  <g fill="#7c5cff">
+    <circle cx="262" cy="104" r="3"/><circle cx="262" cy="220" r="3"/><circle cx="262" cy="336" r="3"/>
+    <circle cx="698" cy="104" r="3"/><circle cx="698" cy="220" r="3"/><circle cx="698" cy="336" r="3"/>
+  </g>
+
+  <!-- hub -->
+  <g filter="url(#sh)">
+    <circle cx="480" cy="220" r="56" fill="url(#core)"/>
+  </g>
+  <text x="480" y="236" text-anchor="middle" font-size="44" font-weight="700" fill="#fff">C</text>
+  <text x="480" y="306" text-anchor="middle" font-size="13" font-weight="600" fill="#5b3df5" letter-spacing=".12em">YOUR HUB</text>
+
+  <!-- worker cards: left -->
+  <g filter="url(#sh)">
+    <rect x="64" y="76" width="198" height="56" rx="12" fill="#fff"/>
+    <rect x="64" y="192" width="198" height="56" rx="12" fill="#fff"/>
+    <rect x="64" y="308" width="198" height="56" rx="12" fill="#fff"/>
+    <rect x="698" y="76" width="198" height="56" rx="12" fill="#fff"/>
+    <rect x="698" y="192" width="198" height="56" rx="12" fill="#fff"/>
+    <rect x="698" y="308" width="198" height="56" rx="12" fill="#fff"/>
+  </g>
+  <g font-size="14" font-weight="600" fill="#18181b">
+    <text x="120" y="100">Call notes</text>
+    <text x="120" y="216">Inbox triage</text>
+    <text x="120" y="332">Reminders</text>
+    <text x="754" y="100">Morning brief</text>
+    <text x="754" y="216">Follow-ups</text>
+    <text x="754" y="332">Ask anything</text>
+  </g>
+  <g font-size="12" fill="#71717a">
+    <text x="120" y="118">summary · tasks · draft</text>
+    <text x="120" y="234">lead · support · billing</text>
+    <text x="120" y="350">before every booking</text>
+    <text x="754" y="118">every day at 08:00</text>
+    <text x="754" y="234">no one goes cold</text>
+    <text x="754" y="350">answers with sources</text>
+  </g>
+  <!-- icon chips -->
+  <g>
+    <rect x="80" y="90" width="28" height="28" rx="8" fill="#ede9fe"/>
+    <rect x="80" y="206" width="28" height="28" rx="8" fill="#dcfce7"/>
+    <rect x="80" y="322" width="28" height="28" rx="8" fill="#fef3c7"/>
+    <rect x="714" y="90" width="28" height="28" rx="8" fill="#e0f2fe"/>
+    <rect x="714" y="206" width="28" height="28" rx="8" fill="#fce7f3"/>
+    <rect x="714" y="322" width="28" height="28" rx="8" fill="#ede9fe"/>
+  </g>
+  <g fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M89 98.5c0 6 4.5 10.5 10.5 10.5l1.8-2.6-2.6-2-1.4 1.2c-1.6-.8-2.8-2-3.6-3.6l1.2-1.4-2-2.6z" stroke="#7c5cff"/>
+    <path d="M88 214h12v10H88zM88 214l6 5 6-5" stroke="#16a34a"/>
+    <path d="M94 329v5l3 2M94 341a7 7 0 1 0 0-14 7 7 0 0 0 0 14z" stroke="#d97706"/>
+    <path d="M722 108h12M724 104l1.5-6h5l1.5 6M728 94v2" stroke="#0284c7"/>
+    <path d="M722 220a6 6 0 0 1 10-4.5M734 220a6 6 0 0 1-10 4.5M732 213v3h-3M724 227v-3h3" stroke="#db2777"/>
+    <path d="M722 330h12v8h-7l-3 3v-3h-2z" stroke="#7c5cff"/>
+  </g>
+
+  <!-- approval pill -->
+  <g filter="url(#sh)">
+    <rect x="384" y="356" width="192" height="40" rx="20" fill="#18181b"/>
+  </g>
+  <circle cx="408" cy="376" r="9" fill="#22c55e"/>
+  <path d="M403.5 376.5l3 3 5.5-6" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="426" y="381" font-size="13.5" font-weight="500" fill="#fff">You approve. Always.</text>
+</svg>
